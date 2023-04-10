@@ -5,9 +5,10 @@
 }
 
 :root {
-  --color-bg-dark: #192a33;
-  --color-bg-light: #1f3640;
-  --color-gray: #a8bec9;
+  --color-bg-dark: #f3f053;
+  --color-bg-light: #c5c19d;
+  --color-bg-li: #686657;
+  --color-gray: #859da8;
   --color-gray-dark: #7a8991;
   --color-yellow: #f2b238;
   --color-yellow-dark: #cd8d16;
@@ -89,7 +90,7 @@ body {
 .bg-yellow .text-light,
 .bg-light.text-light,
 .bg-light .text-light {
-  color: var(--color-bg-light);
+  color: var(--color-bg-li);
 }
 
 .btn {

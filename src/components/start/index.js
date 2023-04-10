@@ -10,7 +10,6 @@ const Start = () => {
   return (
     <div className="start">
       <div className="card shadow-gray">
-        <h1 className="text-lg">Choisissez le symbole du joueur</h1>
         <div className="start__players">
           <span
             className={activeUser === "x" ? "start__players--active" : ""}
@@ -25,9 +24,6 @@ const Start = () => {
             <Oicon color={activeUser === "o" ? "dark" : "light"} />
           </span>
         </div>
-        <p className="text-light text-normal">
-          rappelez-vous : x passe en premier
-        </p>
       </div>
       <div className="start__btns">
         <button className="btn btn-yellow" onClick={() => handleStart("cpu")}>
